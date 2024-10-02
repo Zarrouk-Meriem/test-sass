@@ -1,0 +1,21 @@
+.absolute {
+  position: absolute;
+}
+.heading {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+}
+.container {
+  max-width: 118rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+@mixin basic-button {
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: none;
+  font-size: 1.6rem;
+}

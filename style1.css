@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+}
+
+.container {
+  max-width: 118rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}/*# sourceMappingURL=style1.css.map */

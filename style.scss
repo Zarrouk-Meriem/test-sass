@@ -1,0 +1,180 @@
+@import "components/reset";
+@import "components/footer";
+@import "components/reusable";
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #1c1c1c;
+  background-color: white;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 8%;
+}
+html {
+  overflow-x: hidden;
+  //   // font-size: 62.5%;
+}
+.doodle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+}
+
+section {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // align-items: center;
+  .text-box {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    align-self: center;
+    .data-head {
+      margin-bottom: 4rem;
+      .sign-in-title {
+        color: #177c9a;
+        text-align: center;
+      }
+      .sign-title-details {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        text-align: center;
+        color: #999999;
+      }
+    }
+    .datas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .data {
+        display: flex;
+        flex-direction: column;
+        input {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #d0d5dd;
+          padding: 1rem;
+          border: 1px solid #a4ddf8;
+          border-radius: 1rem;
+          margin-bottom: 1rem;
+        }
+        .nb-input {
+          display: flex;
+          border-radius: 1rem;
+          border: 1px solid #a4ddf8;
+          align-items: center;
+          padding: 0.5rem 1rem;
+          gap: 2rem;
+          margin-bottom: 1rem;
+          .flag-select {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+          }
+          .nb-div {
+            display: block;
+          }
+          input {
+            border: none;
+            margin-bottom: 0;
+            padding: 0.2rem 0.1rem;
+          }
+          p {
+            display: inline;
+          }
+        }
+
+        label {
+          font-weight: 400;
+          font-size: 1.4rem;
+          line-height: 2.1rem;
+          color: #101828;
+          margin-bottom: 0.2rem;
+        }
+
+        a:link,
+        a,
+        a:visited {
+          @include basic-button;
+          padding: 1rem 2rem;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+          background-color: #0188f7;
+          margin-top: 1rem;
+        }
+        a:hover,
+        a:active {
+          cursor: pointer;
+        }
+        .already-account {
+          text-align: center;
+          margin-top: 2rem;
+          span {
+            color: #0188f7;
+          }
+        }
+      }
+    }
+  }
+  .img-box {
+    width: 25%;
+    .bg-blue {
+      display: flex;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      background: #ebfeff;
+      width: 40%;
+      height: 85vh;
+      z-index: -9999;
+      border-radius: 10%;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .sign-in-img {
+      position: absolute;
+      top: 40rem;
+      left: 16%;
+      width: 26%;
+    }
+    .img-details {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 2.4rem;
+      text-align: center;
+      color: #177c9a;
+      span {
+        color: #0164fd;
+      }
+    }
+
+    .logo-go {
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+  }
+}
+.sign-up-section {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  .copyright {
+    position: absolute;
+    bottom: -20%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #728faa;
+    left: 10%;
+  }
+}

@@ -1,5 +1,4 @@
 @import "components/reset";
-@import "components/footer";
 @import "components/reusable";
 
 body {
@@ -14,7 +13,6 @@ body {
 }
 html {
   overflow-x: hidden;
-  //   // font-size: 62.5%;
 }
 .doodle {
   position: absolute;
@@ -24,10 +22,6 @@ html {
 }
 
 section {
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: center;
-  // align-items: center;
   .text-box {
     height: max-content;
     display: flex;

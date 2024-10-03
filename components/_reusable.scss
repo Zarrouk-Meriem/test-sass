@@ -19,3 +19,18 @@
   border: none;
   font-size: 1.6rem;
 }
+$base-shadow: 0px 4px 14px rgba(2, 187, 240, 0.14);
+@mixin basic-card {
+  width: 25%;
+  background-color: white;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: $base-shadow;
+}
+@mixin basic-btn {
+  background-color: white;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 1rem 2rem;
+  box-shadow: $base-shadow;
+}

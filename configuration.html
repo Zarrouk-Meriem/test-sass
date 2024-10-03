@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style1.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
     <title>configuration</title>
   </head>
   <body>
     <header>
-      <nav class="nabar">
+      <nav class="navbar">
         <div class="first-nav">
           <img src="img/logo.svg" alt="logo" />
           <div class="home">
             <img src="img/con/fi-rr-home.svg" alt="home" />
           </div>
           <div class="search-bar">
-            <div class="search-part1">
+            <div class="search">
               <img src="img/con/ij bar icon.svg" alt="" />
               <div class="ij-text">
                 <p>Intellij IDEA</p>
@@ -25,26 +28,31 @@
                 </div>
               </div>
             </div>
-            <img src="img/con/power off icon.svg" />
+            <img class="power-off-icon" src="img/con/power off icon.svg" />
           </div>
         </div>
         <div class="second-nav">
-          <ion-icon
-            class="second-nav-icon"
-            name="chevron-back-outline"
-          ></ion-icon>
-          <ion-icon
-            class="second-nav-icon"
-            name="chevron-forward-outline"
-          ></ion-icon>
-        </div>
-        <div class="profile">
-          <img src="img/con/profile-img.svg" alt="user images" />
-          <img src="img/sign-up imgs/arrow icon.svg" alt="arrow icon" />
+          <div class="arrows">
+            <ion-icon
+              class="second-nav-icon one"
+              name="chevron-back-outline"
+            ></ion-icon>
+            <ion-icon
+              class="second-nav-icon two"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+          <div class="profile">
+            <img src="img/con/profile-img.svg" alt="user images" />
+            <img src="img/sign-up imgs/arrow icon.svg" alt="arrow icon" />
+          </div>
         </div>
       </nav>
     </header>
     <section class="configuration">
+      <a href="#">
+        <img class="close-icon" src="img/con/close icon.svg" alt="close icon" />
+      </a>
       <div class="conf-header">
         <img src="img/con/bing icon.svg" alt="" />
         <div class="conf-header-text">
@@ -55,70 +63,94 @@
       <hr />
       <div class="cards">
         <div class="card">
-          <img src="img/con/scale1.svg" />
-          <h3>Low</h3>
+          <div class="card-header">
+            <img src="img/con/scale1.svg" />
+            <h3>Low</h3>
+          </div>
           <div class="propreties">
             <div class="proprety">
-              <img src="img/con/cpu.svg" alt="" />
-              <p>CPU</p>
+              <div class="prop">
+                <img src="img/con/cpu.svg" alt="" />
+                <p>CPU</p>
+              </div>
               <span>2 CPU</span>
             </div>
             <div class="proprety">
-              <img src="img/con/cpu.svg" alt="" />
-              <p>Disk Size</p>
+              <div class="prop">
+                <img src="img/con/disk size.svg" alt="" />
+                <p>Disk Size</p>
+              </div>
               <span>16 GB</span>
             </div>
             <div class="proprety">
-              <img src="img/con/cpu.svg" alt="" />
-              <p>Ram Size</p>
+              <div class="prop">
+                <img src="img/con/ram.svg" alt="" />
+                <p>Ram Size</p>
+              </div>
               <span>2 GB</span>
             </div>
           </div>
         </div>
         <div class="card">
-          <img src="img/con/scale2.svg" />
-          <h3>Medium</h3>
+          <div class="card-header">
+            <img src="img/con/scale2.svg" />
+            <h3>Medium</h3>
+          </div>
           <div class="propreties">
             <div class="proprety">
-              <img src="img/con/cpu.svg" alt="" />
-              <p>CPU</p>
+              <div class="prop">
+                <img src="img/con/cpu.svg" alt="" />
+                <p>CPU</p>
+              </div>
               <span>2 CPU</span>
             </div>
             <div class="proprety">
-              <img src="img/con/cpu.svg" alt="" />
-              <p>Disk Size</p>
+              <div class="prop">
+                <img src="img/con/disk size.svg" alt="" />
+                <p>Disk Size</p>
+              </div>
               <span>16 GB</span>
             </div>
             <div class="proprety">
-              <img src="img/con/cpu.svg" alt="" />
-              <p>Ram Size</p>
+              <div class="prop">
+                <img src="img/con/ram.svg" alt="" />
+                <p>Ram Size</p>
+              </div>
               <span>2 GB</span>
             </div>
           </div>
         </div>
         <div class="card">
-          <img src="img/con/scale3.svg" />
-          <h3>High</h3>
+          <div class="card-header">
+            <img src="img/con/scale3.svg" />
+            <h3>High</h3>
+          </div>
           <div class="propreties">
             <div class="proprety">
-              <img src="img/con/cpu.svg" />
-              <p>CPU</p>
+              <div class="prop">
+                <img src="img/con/cpu.svg" />
+                <p>CPU</p>
+              </div>
               <span>2 CPU</span>
             </div>
             <div class="proprety">
-              <img src="img/con/cpu.svg" />
-              <p>Disk Size</p>
+              <div class="prop">
+                <img src="img/con/disk size.svg" />
+                <p>Disk Size</p>
+              </div>
               <span>16 GB</span>
             </div>
             <div class="proprety">
-              <img src="img/con/cpu.svg" />
-              <p>Ram Size</p>
+              <div class="prop">
+                <img src="img/con/ram.svg" />
+                <p>Ram Size</p>
+              </div>
               <span>2 GB</span>
             </div>
           </div>
         </div>
       </div>
-      <hr />
+      <hr class="second-hr" />
       <div class="personalize">
         <p>Or personalise</p>
         <div class="round-button">

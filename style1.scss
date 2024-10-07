@@ -7,8 +7,12 @@ body {
   font-weight: 400;
   color: #1c1c1c;
   background-color: #667085f2;
+  overflow-y: hidden;
   overflow-x: hidden;
   position: relative;
+}
+html {
+  overflow-x: hidden;
 }
 header {
   background-color: #f0fafb;
@@ -87,7 +91,6 @@ header {
       display: flex;
       align-items: center;
       gap: 10%;
-      width: 8%;
       margin-right: 1rem;
       cursor: pointer;
       .arrows {
@@ -128,6 +131,7 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 8rem;
+  margin-bottom: 5rem;
   hr {
     border-bottom: 1px solid #e4e7ec;
     margin: 0px 10rem;
@@ -202,7 +206,7 @@ header {
             background-color: white;
             border: 1px solid #0188f7;
             border-radius: 0.5rem;
-            text-align: end;
+            text-align: center;
           }
         }
       }
@@ -212,8 +216,8 @@ header {
     background-color: #dcedff;
   }
   .second-hr {
-    margin: 0 16rem;
-    margin-right: 10rem;
+    margin: 0 23%;
+    margin-right: 14%;
     transform: translateY(2rem);
     border: 0px;
     border-bottom: 1px solid #e4e7ec;
@@ -243,7 +247,7 @@ header {
         width: 1.4rem;
         border-radius: 100%;
         position: absolute;
-        top: 2.7px;
+        top: 3px;
         left: 3px;
       }
       .dot:hover,
@@ -261,7 +265,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin: 1rem 0;
     margin-bottom: 2rem;
 

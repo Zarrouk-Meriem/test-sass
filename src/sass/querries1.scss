@@ -1,0 +1,251 @@
+@media (max-width: 112.5em) {
+  header .navbar .first-nav .search-bar .search .ij-text .subtext {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  header .navbar .first-nav .search-bar .search .ij-text p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  header .navbar .first-nav .search-bar .search {
+    align-items: center;
+  }
+  .configuration {
+    .cards {
+      .card {
+        padding: 1rem;
+        width: 28%;
+      }
+    }
+    .personalize {
+      width: 92%;
+    }
+    .second-hr {
+      margin: 0 29%;
+      margin-right: 17%;
+    }
+  }
+}
+@media (max-width: 101.25em) {
+  header {
+    .navbar {
+      .first-nav {
+        width: 55%;
+      }
+      .search-bar {
+        .search {
+          width: 41%;
+        }
+      }
+    }
+  }
+}
+.configuration {
+  width: 60%;
+  hr {
+    margin: 0 5rem;
+  }
+}
+.configuration .cards .card .propreties {
+  gap: 1rem;
+}
+.configuration .cards .card .propreties .proprety p {
+  font-size: 01rem;
+  line-height: 1.1rem;
+}
+.configuration .second-hr {
+  margin: 0 33%;
+  margin-right: 18%;
+}
+.configuration .personalize {
+  width: 92%;
+}
+
+@media (max-width: 79.8125em) {
+  .configuration {
+    width: 72%;
+  }
+  header .navbar .first-nav .search-bar .search .ij-text .subtext {
+    display: none;
+  }
+  header .navbar .first-nav .search-bar .search {
+    width: 70%;
+  }
+}
+@media (max-width: 66.5em) {
+  .configuration {
+    width: 85%;
+  }
+  header {
+    .navbar {
+      .first-nav {
+        width: 70%;
+      }
+    }
+  }
+}
+@media (max-width: 56.3125em) {
+  header {
+    .navbar {
+      .first-nav {
+        width: 75%;
+        .search-bar {
+          width: 60%;
+        }
+      }
+    }
+    .configuration {
+      width: 96%;
+      hr {
+        margin: 0 8rem;
+      }
+      .conf-header h2 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}
+//800px
+@media (max-width: 50em) {
+}
+//720px
+@media (max-width: 45em) {
+  header {
+    .navbar {
+      .second-nav {
+        .arrows {
+          padding: 0.5rem;
+        }
+      }
+      .first-nav {
+        img {
+          width: 8rem;
+        }
+        justify-content: flex-start;
+        gap: 1rem;
+        .search-bar {
+          display: none;
+        }
+      }
+    }
+  }
+  .configuration {
+    width: 77%;
+    .cards {
+      gap: 1rem;
+      flex-direction: column;
+      .card {
+        width: 60%;
+      }
+      .propreties {
+        width: -webkit-fill-available;
+      }
+    }
+    .personalize {
+      width: 70%;
+      flex-direction: row-reverse;
+    }
+    .second-hr {
+      display: none;
+    }
+    .buttons {
+      flex-direction: column;
+    }
+    .conf-header {
+      padding: 1rem;
+      .conf-header-text {
+        width: 21rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 33.75em) {
+  .configuration {
+    .buttons {
+      button {
+        width: 60%;
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        text-align: center;
+      }
+    }
+    .conf-header {
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 22.5em) {
+  header {
+    .navbar {
+      .profile {
+        padding-left: 6rem;
+      }
+      .second-nav {
+        .arrows {
+          display: none;
+        }
+      }
+      .first-nav {
+        img {
+          width: 6rem;
+        }
+        .home {
+          display: none;
+        }
+      }
+    }
+  }
+  .configuration {
+    .personalize {
+      width: 93%;
+    }
+    .cards {
+      .card {
+        width: 89%;
+      }
+    }
+    .conf-header {
+      gap: 0;
+      h2 {
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 17.625em) {
+  header {
+    .navbar {
+      .profile {
+        padding-left: 4rem;
+      }
+    }
+  }
+  .configuration {
+    width: 90%;
+
+    .buttons {
+      button {
+        width: 70%;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+      }
+    }
+    .personalize {
+      width: 100%;
+      flex-direction: column;
+      gap: 0.8rem;
+      p {
+        font-size: 1rem;
+        line-height: 1rem;
+      }
+    }
+  }
+}

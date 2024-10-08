@@ -1,0 +1,206 @@
+@media (max-width: 112.5em) {
+  header .navbar .first-nav .search-bar .search .ij-text .subtext {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  header .navbar .first-nav .search-bar .search .ij-text p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  header .navbar .first-nav .search-bar .search {
+    align-items: center;
+  }
+  .configuration .cards .card {
+    padding: 1rem;
+    width: 28%;
+  }
+  .configuration .personalize {
+    width: 92%;
+  }
+  .configuration .second-hr {
+    margin: 0 29%;
+    margin-right: 17%;
+  }
+}
+
+@media (max-width: 101.25em) {
+  header .navbar .first-nav {
+    width: 55%;
+  }
+  header .navbar .search-bar .search {
+    width: 41%;
+  }
+}
+
+.configuration {
+  width: 60%;
+}
+.configuration hr {
+  margin: 0 5rem;
+}
+
+.configuration .cards .card .propreties {
+  gap: 1rem;
+}
+
+.configuration .cards .card .propreties .proprety p {
+  font-size: 01rem;
+  line-height: 1.1rem;
+}
+
+.configuration .second-hr {
+  margin: 0 33%;
+  margin-right: 18%;
+}
+
+.configuration .personalize {
+  width: 92%;
+}
+
+@media (max-width: 79.8125em) {
+  .configuration {
+    width: 72%;
+  }
+  header .navbar .first-nav .search-bar .search .ij-text .subtext {
+    display: none;
+  }
+  header .navbar .first-nav .search-bar .search {
+    width: 70%;
+  }
+}
+
+@media (max-width: 66.5em) {
+  .configuration {
+    width: 85%;
+  }
+  header .navbar .first-nav {
+    width: 70%;
+  }
+}
+
+@media (max-width: 56.3125em) {
+  header .navbar .first-nav {
+    width: 75%;
+  }
+  header .navbar .first-nav .search-bar {
+    width: 60%;
+  }
+  header .configuration {
+    width: 96%;
+  }
+  header .configuration hr {
+    margin: 0 8rem;
+  }
+  header .configuration .conf-header h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 45em) {
+  header .navbar .second-nav .arrows {
+    padding: 0.5rem;
+  }
+  header .navbar .first-nav {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  header .navbar .first-nav img {
+    width: 8rem;
+  }
+  header .navbar .first-nav .search-bar {
+    display: none;
+  }
+  .configuration {
+    width: 77%;
+  }
+  .configuration .cards {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .configuration .cards .card {
+    width: 60%;
+  }
+  .configuration .cards .propreties {
+    width: -webkit-fill-available;
+  }
+  .configuration .personalize {
+    width: 70%;
+    flex-direction: row-reverse;
+  }
+  .configuration .second-hr {
+    display: none;
+  }
+  .configuration .buttons {
+    flex-direction: column;
+  }
+  .configuration .conf-header {
+    padding: 1rem;
+  }
+  .configuration .conf-header .conf-header-text {
+    width: 21rem;
+  }
+}
+
+@media (max-width: 33.75em) {
+  .configuration .buttons button {
+    width: 60%;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .configuration .conf-header p {
+    display: none;
+  }
+}
+
+@media (max-width: 22.5em) {
+  header .navbar .profile {
+    padding-left: 6rem;
+  }
+  header .navbar .second-nav .arrows {
+    display: none;
+  }
+  header .navbar .first-nav img {
+    width: 6rem;
+  }
+  header .navbar .first-nav .home {
+    display: none;
+  }
+  .configuration .personalize {
+    width: 93%;
+  }
+  .configuration .cards .card {
+    width: 89%;
+  }
+  .configuration .conf-header {
+    gap: 0;
+  }
+  .configuration .conf-header h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 17.625em) {
+  header .navbar .profile {
+    padding-left: 4rem;
+  }
+  .configuration {
+    width: 90%;
+  }
+  .configuration .buttons button {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .configuration .personalize {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .configuration .personalize p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}

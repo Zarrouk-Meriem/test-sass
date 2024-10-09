@@ -1,206 +1,328 @@
-@media (max-width: 112.5em) {
-  header .navbar .first-nav .search-bar .search .ij-text .subtext {
-    font-size: 1rem;
-    line-height: 1rem;
+@import "components/reset";
+@import "components/reusable";
+// 1816px
+
+@media (max-width: 113.5em) {
+  .container2 {
+    margin-left: 23%;
   }
-  header .navbar .first-nav .search-bar .search .ij-text p {
-    font-size: 1rem;
-    line-height: 1rem;
+  header {
+    .navbar {
+      .first-nav {
+        margin-left: 22.5%;
+      }
+    }
   }
-  header .navbar .first-nav .search-bar .search {
-    align-items: center;
+}
+//1703px
+@media (max-width: 106.4375em) {
+  header {
+    .navbar {
+      .first-nav {
+        justify-content: normal;
+        gap: 2%;
+        .profile-tickets {
+          justify-content: normal;
+
+          gap: 2%;
+        }
+        .search-bar {
+          width: auto;
+          .search {
+            justify-content: end;
+            .ij-text {
+              display: none;
+            }
+          }
+        }
+      }
+    }
   }
-  .configuration .cards .card {
+}
+//1587px
+@media (max-width: 99.1875em) {
+  .container2 {
+    margin-left: 21%;
+  }
+  header {
+    .navbar {
+      .first-nav {
+        margin-left: 20%;
+      }
+    }
+  }
+  aside {
+    width: 20%;
+  }
+  .billing-cards {
+    .billing-card {
+      button {
+        align-self: center !important;
+        width: -webkit-fill-available;
+      }
+      .billing-heading-card {
+        flex-direction: column;
+        .price {
+          align-self: center;
+          padding: 0.5rem !important;
+          margin-top: 1rem;
+          border-radius: 1rem;
+          width: -webkit-fill-available;
+          border: 1px solid #0188f7;
+        }
+      }
+    }
+    .payment {
+      .payment-heading {
+        .heading-text {
+          align-self: baseline;
+          margin-bottom: 1rem;
+        }
+        flex-direction: column;
+        button {
+          align-self: center;
+          width: -webkit-fill-available;
+        }
+      }
+      .visa {
+        .visa-img-box {
+          flex-direction: column;
+          button {
+            width: -webkit-fill-available !important;
+          }
+          .visa-img-box-one {
+            margin-bottom: 1rem;
+            width: -webkit-fill-available;
+          }
+        }
+      }
+    }
+  }
+}
+//1400px
+@media (max-width: 87.5em) {
+  .scroll {
+    overflow-x: scroll;
+  }
+  .container2 {
+    .billing-history {
+      .billing-content {
+        width: 150%;
+      }
+    }
+  }
+  .plans-billing {
+    .billing-cards {
+      flex-direction: column;
+      gap: 1rem;
+      .billing-card {
+        width: -webkit-fill-available;
+      }
+    }
+  }
+  .aside {
+    .menu {
+      .menu-item {
+        font-size: 1.4rem;
+        width: 107%;
+      }
+    }
+    img {
+      width: -webkit-fill-available;
+    }
+  }
+}
+//1040px
+@media (max-width: 80em) {
+  .aside {
+    .menu {
+      gap: 0.5rem;
+      align-items: center;
+      width: 160%;
+      .menu-item {
+        font-size: 1.2rem;
+        width: 89%;
+        text-align: center;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+//925px
+@media (max-width: 57.8125em) {
+  .billing-history .billing-content .invoices .invoice:nth-child(2) ::after,
+  .billing-history .billing-content .invoices .invoice:nth-child(3) ::after,
+  .billing-history .billing-content .invoices .invoice:nth-child(4) ::after,
+  .billing-history .billing-content .invoices .invoice:nth-child(5) ::after {
+    display: none;
+  }
+  .container2 {
+    .billing-history {
+      .billing-content {
+        width: 200%;
+      }
+    }
+  }
+  aside {
+    img {
+      width: min-content;
+    }
     padding: 1rem;
-    width: 28%;
+    .menu {
+      .menu-item {
+        width: 60% !important;
+      }
+    }
   }
-  .configuration .personalize {
-    width: 92%;
+  header {
+    .navbar {
+      .first-nav {
+        img {
+          width: 40%;
+        }
+        width: auto;
+        gap: 5%;
+        .profile-tickets {
+          display: none;
+        }
+      }
+    }
+    .hidden {
+      display: flex;
+    }
+    .hidden-navbar {
+      margin-left: 19%;
+      padding-top: 0;
+      .search-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        border: 1px solid #e8f2ff;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 14px rgba(2, 187, 240, 0.14);
+        padding: 0 5%;
+        width: max-content;
+        .search {
+          display: flex;
+          gap: 0.2rem;
+          align-items: center;
+          .ij-text {
+            display: none;
+          }
+        }
+      }
+    }
   }
-  .configuration .second-hr {
-    margin: 0 29%;
-    margin-right: 17%;
-  }
 }
-
-@media (max-width: 101.25em) {
-  header .navbar .first-nav {
-    width: 55%;
-  }
-  header .navbar .search-bar .search {
-    width: 41%;
-  }
-}
-
-.configuration {
-  width: 60%;
-}
-.configuration hr {
-  margin: 0 5rem;
-}
-
-.configuration .cards .card .propreties {
-  gap: 1rem;
-}
-
-.configuration .cards .card .propreties .proprety p {
-  font-size: 01rem;
-  line-height: 1.1rem;
-}
-
-.configuration .second-hr {
-  margin: 0 33%;
-  margin-right: 18%;
-}
-
-.configuration .personalize {
-  width: 92%;
-}
-
-@media (max-width: 79.8125em) {
-  .configuration {
-    width: 72%;
-  }
-  header .navbar .first-nav .search-bar .search .ij-text .subtext {
+//707px
+@media (max-width: 44.1875em) {
+  .aside {
     display: none;
   }
-  header .navbar .first-nav .search-bar .search {
-    width: 70%;
+  .container2 {
+    margin-left: 2%;
+    .billing-history {
+      .billing-heading {
+        .billing-heading-text {
+          align-self: baseline;
+          .heading-secondary {
+            margin-bottom: 1rem;
+          }
+        }
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button {
+          width: -webkit-fill-available;
+          padding: 0.5rem 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+  header {
+    .navbar {
+      .first-nav {
+        margin-left: 0;
+      }
+    }
+    .hidden-navbar {
+      margin-left: 0;
+    }
   }
 }
-
-@media (max-width: 66.5em) {
-  .configuration {
-    width: 85%;
-  }
-  header .navbar .first-nav {
-    width: 70%;
-  }
-}
-
-@media (max-width: 56.3125em) {
-  header .navbar .first-nav {
-    width: 75%;
-  }
-  header .navbar .first-nav .search-bar {
-    width: 60%;
-  }
-  header .configuration {
-    width: 96%;
-  }
-  header .configuration hr {
-    margin: 0 8rem;
-  }
-  header .configuration .conf-header h2 {
-    font-size: 1.6rem;
-    line-height: 2rem;
-  }
-}
-
-@media (max-width: 45em) {
-  header .navbar .second-nav .arrows {
-    padding: 0.5rem;
-  }
-  header .navbar .first-nav {
-    justify-content: flex-start;
-    gap: 1rem;
-  }
-  header .navbar .first-nav img {
-    width: 8rem;
-  }
-  header .navbar .first-nav .search-bar {
+//496px
+@media (max-width: 31em) {
+  .visa-text {
     display: none;
   }
-  .configuration {
-    width: 77%;
+  .plans-billing {
+    .billing-cards {
+      .payment {
+        .visa {
+          .visa-img-box {
+            flex-direction: row;
+            gap: 3%;
+            .visa-img-box-one {
+              justify-content: center;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
   }
-  .configuration .cards {
-    gap: 1rem;
-    flex-direction: column;
+  .container2 {
+    .billing-history {
+      .billing-content {
+        width: 400%;
+      }
+    }
   }
-  .configuration .cards .card {
-    width: 60%;
-  }
-  .configuration .cards .propreties {
-    width: -webkit-fill-available;
-  }
-  .configuration .personalize {
-    width: 70%;
-    flex-direction: row-reverse;
-  }
-  .configuration .second-hr {
-    display: none;
-  }
-  .configuration .buttons {
-    flex-direction: column;
-  }
-  .configuration .conf-header {
-    padding: 1rem;
-  }
-  .configuration .conf-header .conf-header-text {
-    width: 21rem;
-  }
-}
-
-@media (max-width: 33.75em) {
-  .configuration .buttons button {
-    width: 60%;
-    padding: 1rem 2rem;
-    font-size: 1.6rem;
-    text-align: center;
-  }
-  .configuration .conf-header p {
-    display: none;
-  }
-}
-
-@media (max-width: 22.5em) {
-  header .navbar .profile {
-    padding-left: 6rem;
-  }
-  header .navbar .second-nav .arrows {
-    display: none;
-  }
-  header .navbar .first-nav img {
-    width: 6rem;
-  }
-  header .navbar .first-nav .home {
-    display: none;
-  }
-  .configuration .personalize {
-    width: 93%;
-  }
-  .configuration .cards .card {
-    width: 89%;
-  }
-  .configuration .conf-header {
-    gap: 0;
-  }
-  .configuration .conf-header h2 {
-    font-size: 1rem;
-    line-height: 1.2rem;
+  header {
+    .hidden-navbar {
+      overflow: scroll;
+      gap: 5%;
+    }
+    .navbar {
+      .first-nav {
+        img {
+          width: 60%;
+        }
+      }
+      .second-nav {
+        margin-right: 0;
+        .arrows {
+          display: none;
+        }
+      }
+    }
   }
 }
-
-@media (max-width: 17.625em) {
-  header .navbar .profile {
-    padding-left: 4rem;
+//266px
+@media (max-width: 16.625em) {
+  .home {
+    display: none;
   }
-  .configuration {
-    width: 90%;
+  .container2 {
+    .billing-history {
+      .billing-content {
+        width: 500%;
+      }
+    }
   }
-  .configuration .buttons button {
-    width: 70%;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-  }
-  .configuration .personalize {
-    width: 100%;
-    flex-direction: column;
-    gap: 0.8rem;
-  }
-  .configuration .personalize p {
-    font-size: 1rem;
-    line-height: 1rem;
+  header {
+    .hidden-navbar {
+      overflow: scroll;
+      gap: 5%;
+    }
+    .navbar {
+      .first-nav {
+        img {
+          width: 80%;
+        }
+      }
+    }
   }
 }

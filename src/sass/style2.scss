@@ -14,6 +14,7 @@ header {
   display: block;
   position: relative;
   background-color: #f0fafb;
+
   .navbar {
     padding: 1.4rem;
     display: flex;
@@ -130,6 +131,9 @@ header {
       }
     }
   }
+  .hidden {
+    display: none;
+  }
 }
 .container2 {
   display: flex;
@@ -152,6 +156,8 @@ aside {
   top: 0;
   left: 0;
   height: 135vh;
+  width: 19%;
+
   img {
     cursor: pointer;
   }
@@ -344,7 +350,7 @@ aside {
             margin: 0;
             align-self: center;
             cursor: pointer;
-            width: 50%;
+            width: 30%;
             padding: 0.5rem;
           }
         }

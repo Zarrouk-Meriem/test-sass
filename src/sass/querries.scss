@@ -1,0 +1,114 @@
+@import "components/reset";
+@import "components/reusable";
+//1260px
+@media (max-width: 78.75em) {
+  .img-section {
+    .img-box {
+      left: 2%;
+      width: 30%;
+      .img-details {
+        font-size: 1.4rem;
+      }
+    }
+    .bg-blue {
+      .sign-in-img {
+        width: 84%;
+      }
+    }
+  }
+  .sign-up-section {
+    .text-box {
+      .data-head {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+//900px
+@media (max-width: 56.25em) {
+  .img-section {
+    .img-box {
+      left: 2%;
+      width: 30%;
+      .img-details {
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+    }
+    .bg-blue {
+      .sign-in-img {
+        width: 90%;
+        margin-bottom: -8rem;
+      }
+    }
+  }
+  .sign-up-section {
+    .text-box {
+      .datas {
+        .data {
+          .nb-input {
+            gap: 1%;
+          }
+        }
+      }
+      .data-head {
+        .sign-title-details {
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+        }
+      }
+    }
+  }
+}
+//747px
+@media (max-width: 46.6875em) {
+  .img-section {
+    display: none;
+  }
+  .sign-up-section {
+    width: auto;
+    left: 15%;
+  }
+  .relative {
+    height: 96vh;
+  }
+}
+//483px
+@media (max-width: 30.1875em) {
+  .sign-up-section .text-box .datas .data .nb-input .flag-select {
+    display: none;
+  }
+}
+//357px
+@media (max-width: 22.3125em) {
+  .sign-up-section {
+    .text-box {
+      .data-head {
+        .sign-in-title {
+          font-size: 2.5rem;
+        }
+      }
+      .datas {
+        .already-account {
+          font-size: 0.8rem;
+        }
+        .data {
+          .nb-input {
+            input {
+              padding: 0;
+            }
+            p {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .copyright {
+      margin-top: 2%;
+      font-size: 0.7rem;
+    }
+  }
+}
